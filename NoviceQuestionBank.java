@@ -1,4 +1,4 @@
-package EPIC;
+package MINI_EPIC;
 
 import java.util.Random;
 import java.util.Scanner;
@@ -12,6 +12,12 @@ public class NoviceQuestionBank {
 	 and the user will be asked to answer again this will repeat until the user enters a valid input
 	 if user answers the question correctly the variable score is increased by 1.
 	 */
+	
+	public static void invalidInput() {
+		System.out.printf("Invalid input please try again.\n"
+				+ "Enter answer:\n");
+		
+	}
 	
 	public static int questionsNoviceDM1(int score) {
 
@@ -31,8 +37,7 @@ public class NoviceQuestionBank {
 		if (input.equals("c")) {
 			score++;
 		}
-		}else {System.out.printf("Invalid input please try again.\n"
-				+ "Enter answer:\n");
+		}else {invalidInput();
 		i--;}
 		}
 		return score;
@@ -56,8 +61,7 @@ public class NoviceQuestionBank {
 			if (input.equals("a")) {
 				score++;
 			}
-			}else {System.out.printf("Invalid input please try again.\n"
-					+ "Enter answer:\n");
+			}else { invalidInput();
 			i--;}
 			}
 		return score;
@@ -80,8 +84,7 @@ public class NoviceQuestionBank {
 			if (input.equals("d")) {
 				score++;
 			}
-			}else {System.out.printf("Invalid input please try again.\n"
-					+ "Enter answer:\n");
+			}else {invalidInput();
 			i--;}
 			}
 		return score;
@@ -104,8 +107,7 @@ public class NoviceQuestionBank {
 			if (input.equals("d")) {
 				score++;
 			}
-			}else {System.out.printf("Invalid input please try again.\n"
-					+ "Enter answer:\n");
+			}else {invalidInput();
 			i--;}
 			}
 		return score;
@@ -128,8 +130,7 @@ public class NoviceQuestionBank {
 			if (input.equals("c")) {
 				score++;
 			}
-			}else {System.out.printf("Invalid input please try again.\n"
-					+ "Enter answer:\n");
+			}else {invalidInput();
 			i--;}
 			}
 		return score;
@@ -152,8 +153,7 @@ public class NoviceQuestionBank {
 			if (input.equals("c")) {
 				score++;
 			}
-			}else {System.out.printf("Invalid input please try again.\n"
-					+ "Enter answer:\n");
+			}else {invalidInput();
 			i--;}
 			}
 		return score;

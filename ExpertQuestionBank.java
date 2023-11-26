@@ -1,4 +1,4 @@
-package EPIC;
+package MINI_EPIC;
 
 import java.util.Random;
 import java.util.Scanner;
